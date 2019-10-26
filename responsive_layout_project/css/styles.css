@@ -1,0 +1,567 @@
+/*---Base Element Styles-----
+===========================*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;  
+    color:   #252626;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    line-height: 1.7;   
+}
+
+
+/*---Layout Containers-------
+===========================*/
+
+.header-container {
+   text-align: center;
+   max-width: 100%;
+   margin: auto;
+   padding-top: 20px;
+   padding-bottom: 30px;
+   background-color: lightblue;
+}
+
+.portfolio-container {
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px; 
+    padding-bottom: 20px;     
+}
+
+.skills-container {
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px; 
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-top: silver solid .75px;
+}
+
+.contact-container {
+    background-color: lightblue;
+    text-align: center;   
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.footer-container {    
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: gray solid .75px;   
+}
+
+
+ /*---Page Elements----------
+===========================*/
+
+h1 {
+    font-size: 23px;
+    margin: 0;
+    padding: 0;  
+}
+
+.main-header ul {   
+    padding: 0;
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 15px;   
+}
+
+.main-header li {   
+    margin: 8px 0 8px 0;  
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    background-color: white;
+}
+
+.main-header a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.profile-photo {
+    margin: auto;
+    max-width: 65%;    
+}
+
+#portfolio {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.portfolio-image {
+    max-width: 100%;
+}
+
+.marketing,
+.search,
+.travel,
+.favorites,
+.photo,
+.calculator {
+    padding-bottom: 20px;   
+}
+
+.top-nav {
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.bottom-navbar ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    display: none;     
+}
+
+.bottom-navbar li {
+    display: inline-block;
+    padding: 8px;
+    margin: 0;
+    display: none;     
+}
+
+.bottom-navbar a {
+    color: black;
+}
+
+
+.name {
+   padding-top: 12px;
+   padding-left: 0;
+   padding-bottom: 20px;
+}
+
+.java,
+.rails,
+.php,
+.ruby,
+.python,
+.flask {
+    margin-bottom: 40px;
+}
+
+#skills {
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+#skills-p {
+    border-bottom: solid .75px silver;
+    padding-bottom: 30px;
+}
+
+.java-image {
+    max-width: 100%;
+    border-top: 28px solid #52C2FF;
+    border-left: 60px solid #52C2FF;    
+    border-bottom: 28px solid #52C2FF; 
+    border-right: 60px solid  #52C2FF;    
+}
+
+.rails-image {
+    max-width: 100%;
+    border-top: 28px solid #EBC015;
+    border-left: 60px solid #EBC015;    
+    border-bottom: 28px solid #EBC015; 
+    border-right: 60px solid #EBC015;
+ }
+
+ .php-image {
+    max-width: 100%;
+    border-top: 28px solid #244DF0;
+    border-left: 60px solid #244DF0;    
+    border-bottom: 28px solid #244DF0; 
+    border-right: 60px solid #244DF0;   
+ }
+
+ .ruby-image {
+    max-width: 100%;
+    border-top: 28px solid #ADAEB3;
+    border-left: 60px solid #ADAEB3;    
+    border-bottom: 28px solid #ADAEB3; 
+    border-right: 60px solid #ADAEB3;
+ }
+
+ .python-image {
+    max-width: 100%;
+    border-top: 28px solid #B875BD;
+    border-left: 60px solid #B875BD;    
+    border-bottom: 28px solid #B875BD; 
+    border-right: 60px solid #B875BD;
+ }
+
+ .flask-image {
+    max-width: 100%;
+    border-top: 28px solid #F52536;
+    border-left: 60px solid #F52536;   
+    border-bottom: 28px solid #F52536;
+    border-right: 60px solid #F52536;
+ }
+
+
+/*-FLOATS CLEARFIX-----------
+===========================*/
+
+  .name,
+ .top-nav {
+     width: 46.5%;
+ }
+ 
+ .name {
+    float: left;
+}
+
+.top-nav {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*---MEDIA QUERY----------------
+/* media query screen 768px---*/
+
+ @media (min-width: 768px)  {
+
+       
+/*---Layout Containers ------*/
+
+.header-container {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.footer-container {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*---Page Elements----------
+===========================*/
+
+.main-header h1 {
+    padding-top: 20px;
+}
+
+.profile-p {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 35px;
+}
+
+.profile-photo  {   
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 35px;
+}
+
+.top-navbar ul {
+    text-align: center;
+    padding-top: 0px
+}
+
+.main-header li {
+    font-size: 14px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;  
+    background-color: lightblue;
+}
+
+#portfolio {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.top-nav {
+    display: none;     
+}
+
+.name {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;    
+    margin: 0;
+}
+
+.bottom-navbar ul {
+    list-style: none;
+    display: inline-block; 
+    padding: 0;
+    margin: 0;    
+}
+
+.bottom-navbar li {
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 25px; 
+    padding-right: 0;    
+}
+
+.marketing,
+.travel,
+.calculator,
+.search,
+.favorites,
+.photo {
+    padding-bottom: 40px;  
+}
+
+.contact-container p {
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+/*-FLOATS CLEARFIX-----------
+===========================*/
+
+ .profile-photo {
+    max-width: 40%;
+}
+
+.profile-p {
+    max-width: 55%;
+}
+
+.profile-photo {
+    float: right
+}
+
+.profile-p {
+    float: left;
+}
+
+.marketing,
+.search,
+.travel,
+.favorites,
+.calculator,
+.photo, 
+.java,
+.rails,
+.php,
+.ruby,
+.python,
+.flask {
+    max-width: 46.5%;
+}
+
+.photo,
+.marketing,
+.travel {
+    float: left
+}
+
+.search,
+.favorites,
+.calculator {
+    float: right;
+}
+
+.java {
+    float: left;
+}
+
+.rails {
+    float: right;
+}
+
+.php {
+    float: left;
+}
+
+.ruby {
+    float: left;
+}
+
+.python {
+    float: right;
+  }
+
+.php {
+    float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+}
+
+
+/*---MEDIA QUERY----------------
+/* media query screen 1024px---*/
+
+ @media (min-width: 1024px)  {
+
+
+ /*---Layout Containers ------*/
+
+.header-container {
+    text-align: right;
+}
+
+.contact-container p {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+ 
+
+/*---Page Elements----------
+===========================*/
+
+.main-header { 
+    padding-left: 50px;
+}
+
+.main-header ul {
+    padding: 0;   
+}
+
+.profile-photo {
+    margin: 0;
+    padding-top: 0;
+    padding-right: 40px;
+}
+
+.profile-p {
+    margin: 0;  
+}
+
+.main-header ul {
+    padding-bottom: 20px;
+}
+
+.footer-container { 
+   
+    text-align: right;
+    padding-right: 40px;
+}
+
+.name {
+    text-align: left;
+}
+
+
+/*-FLOATS CLEARFIX-----------
+===========================*/
+
+.header-container h1,
+.top-navbar {
+    max-width: 40%; 
+}
+
+.header-container h1 {
+    float: left;
+}
+
+.top-navbar {
+    float: right;
+}
+
+
+.marketing,
+.search,
+.travel,
+.favorites,
+.photo,
+.calculator {
+    max-width: 33.33%;
+    padding: 5px;
+}
+
+
+.marketing,
+.search,
+.favorites,
+.photo {
+    float: left;
+}
+
+.travel,
+.calculator {
+    float: right;
+}
+
+.java,
+.rails,
+.php {
+    max-width: 33.33%;
+    padding: 10px;
+}
+
+.java {
+    float: left;
+}
+
+.rails {
+    float: left;
+}
+
+.php {
+    float: right;
+}
+
+.ruby,
+.python,
+.flask {
+    max-width: 33.33%;
+    padding: 5px;
+}
+
+.ruby {
+    float: right;
+}
+
+.python {
+    float: right;
+}
+
+.flask {
+    float: left;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+
+}
+ 

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"><!--New Font-->
+    <title>Mobile First Responsive Layout Project</title>
+</head>
+    <body>
+
+        <div class="container">
+            <div class="header-container clearfix"> <!---Do not remove-->
+                <header class="main-header">
+                    <h1 class="clearfix">Student Name</h1> <!--  Clearfix?????-->
+                    <nav class="top-navba clearfixr">
+                        <ul>
+                            <li><a href="#top">HOME</a></li>        
+                            <li><a href="#portfolio">PORTFOLIO</a></li>  
+                            <li><a href="#skills">SKILLS</a></li> 
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                    <div class="profile-container">   
+                        <img class="profile-photo" src="images/responsive-layout-profile.png" alt="Photo of Student">
+                        <p class="profile-p">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put my skills to use!</p>
+                    </div> 
+                </header>
+            </div>
+
+            <div class="portfolio-container clearfix"> <!---Do not remove-->
+                <h3 id="portfolio">PORTFOLIO</h3>                   
+                <div class="marketing"><img class="portfolio-image" src="images/portfolio-1.png" alt="Photo of Marketing App">       
+                    <h3 id="marketing">Marketing Page</h3>        
+                    <p>The project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+                </div>
+
+                <div class="search"><img class="portfolio-image" src="images/portfolio-2.png" alt="Photo of Search Page">
+                    <h3 id="search">Search Page</h3>       
+                    <p>This project searches through a specific database to find information that the user is trying to look up</p>
+                </div>
+
+                <div class="travel"><img class="portfolio-image" src="images/portfolio-3.png" alt="Photo of Travel App">
+                    <h3 id="travel">Travel App</h3>
+                    <p>This project compares travel times based on different transportation methods and tells you the best one</p>
+                </div>
+                            
+                <div class="favorites"><img class="portfolio-image" src="images/portfolio-4.png" alt="Photo of Map App">
+                    <h3 id="favorites">Map of Favorite Spots</h3>
+                    <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+                </div>
+                            
+                <div class="photo"><img class="portfolio-image" src="images/portfolio-5.png" alt="Photo of Photo Gallery">       
+                    <h3 id="photo">Photo Gallery</h3>
+                    <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+                </div> 
+                                
+                <div class="calculator"><img class="portfolio-image" src="images/portfolio-6.png" alt="Photo of Calculator App">
+                    <h3 id="calculator">Calculator</h3>        
+                    <p>Someone can enter the numbers they want and press the big blue button and get the result. </p>
+                </div>
+            </div>
+            
+            <div class="skills-container clearfix">  <!---Do not remove-->
+                <h3 id="skills">SKILLS</h3>          
+                <p id="skills-p">Some of the courses I will complete with the Treehouse Techdegree Program.</p>
+            
+                <div class="java"><img class="java-image" src="images/java.jpg" alt="Photo of Java Course">       
+                    <h3 id="java">Java</h3>        
+                    <p>In this course I will learn JavaScrpt, JQuery, Node.js, and Gulp.</p>
+                </div>  
+
+                <div class="rails"><img class="rails-image" src="images/rails.jpg" alt="Photo of Rales Course">
+                    <h3 id="rails">Rails</h3>        
+                    <p>In this course I will learn how to develop a Rails application. </p>
+                </div>
+
+                <div class="php"><img class="php-image" src="images/php.jpg" alt="Photo of PHP Course">
+                    <h3 id="php">PHP</h3>        
+                    <p>This program will teach me how to build web-sites using PHP.</p>
+                </div> 
+
+                <div class="ruby"><img class="ruby-image" src="images/ruby.jpg" alt="Photo of Ruby Course">
+                    <h3 id="ruby">Ruby</h3>        
+                    <p>I plan to complete the "Learn Ruby" program by the end of next year.</p>
+                </div>
+
+                <div class="python"><img class="python-image" src="images/python.jpg" alt="Photo of Python Course">
+                    <h3 id="python">Python</h3>        
+                    <p>In this course I will learn how to build applications using Python.</p>
+                </div>
+
+                <div class="flask"><img class="flask-image" src="images/flask.jpg" alt="Photo of Flask">
+                    <h3 id="flask">Flask</h3>        
+                    <p>THis course will teach me about the web framwork Flask.</p>
+                </div>       
+            </div>
+                            
+        <div class="contact-container"> 
+            <h3  id="contact">CONTACT</h3>
+            <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>  
+            <p>Phone:<strong>+1 (111) 555-1234</strong></p>             
+            <p>Email:<strong> email@yoursite.com</strong></p> 
+        </div>
+
+            
+        <div class="footer-container">
+                <footer class="main-footer">       
+                    <div class="bottom-navbar">            
+                        <p class="name"><strong>Student name</strong></p>
+                        <a class="top-nav" href="#top"><strong>BACK TO TOP</strong></a>
+
+                        <ul class="bottom-nav">
+                            <li><a class="home-nav" href="#top"><strong>HOME</strong></a></li>       
+                            <li><a class="portfolio-nav" href="#portfolio"><strong>PORTFOLIO</strong></a></li> 
+                            <li><a class="skills-nav" href="#skills"><strong>SKILLS</strong></a></li>  
+                            <li><a class="contact-nav" href="#contact"><strong>CONTACT</strong></a></li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
+
