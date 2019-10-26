@@ -25,7 +25,7 @@ body {
    margin: auto;
    padding-top: 20px;
    padding-bottom: 30px;
-   background-color: lightblue;
+   background-color: lightblue;   /*New Background Color*/
 }
 
 .portfolio-container {
@@ -46,7 +46,7 @@ body {
 
 .contact-container {
     font-family: 'Jomolhari', serif;  /*New Google Font*/
-    background-color: lightblue;
+    background-color: lightblue;    /*New Background Color*/
     text-align: center;   
     padding: 30px 20px 50px 20px;
 }
@@ -94,7 +94,7 @@ a {
 }
 
 a:hover {
-    color: red;
+    color: red;  /*New Hover Sthle*/
 }
 
 .profile-photo {
