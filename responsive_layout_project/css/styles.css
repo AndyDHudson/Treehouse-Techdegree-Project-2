@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Roboto Slab', serif;  
+    font-family: 'Roboto Slab', serif;   /*New Google Font*/
     color:   #252626;
     margin: 0;
     padding: 0;
@@ -45,16 +45,17 @@ body {
 }
 
 .contact-container {
+    font-family: 'Jomolhari', serif;  /*New Google Font*/
     background-color: lightblue;
     text-align: center;   
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding: 30px 20px 50px 20px;
 }
 
 .footer-container {    
     margin-left: 20px;
     margin-right: 20px;
-    border-top: gray solid .75px;   
+    border-top: gray solid .75px;
+
 }
 
 
@@ -132,18 +133,18 @@ a:hover {
     display: inline-block;
     padding: 0;
     margin: 0;
-    display: none;     
+    display: none;       
 }
 
 .bottom-navbar li {
     display: inline-block;
     padding: 8px;
     margin: 0;
-    display: none;     
+    display: none;    
 }
 
 .bottom-navbar a {
-    color: black;
+    color: blue;
 }
 
 
@@ -151,6 +152,7 @@ a:hover {
    padding-top: 12px;
    padding-left: 0;
    padding-bottom: 20px;
+   color: blue;
 }
 
 .java,
@@ -448,6 +450,10 @@ a:hover {
 
 .main-header { 
     padding-left: 50px;
+}
+
+h1 {
+    padding-left: 35px;
 }
 
 .main-header ul {
